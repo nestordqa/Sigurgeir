@@ -1,11 +1,11 @@
+import {Route, Switch} from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Layout/Navbar';
+import { Home } from './views/Home';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      TESTING NAVBAR
+      <Home/>
     </div>
   );
 }
