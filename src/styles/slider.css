@@ -1,0 +1,22 @@
+.sliderContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: rgb(112, 112, 112);
+
+}
+@media screen and (min-width: 960px){
+    .sliderContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: calc(100vh - 120px);
+        background-color: rgb(139, 139, 139);
+    }   
+
+}

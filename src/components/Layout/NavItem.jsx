@@ -5,7 +5,7 @@ const NavItem = ({href, text}) =>{
 
     return(
         <>
-            <NavLink exact to={href} className="nav__link">
+            <NavLink exact='true' to={href} className="nav__link">
                 {text}
             </NavLink>
         </>

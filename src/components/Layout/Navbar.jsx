@@ -68,7 +68,7 @@ const Navbar = () => {
         </div>
         
         <div className='logo'>
-            <NavLink exact to="/" className="a">
+            <NavLink exact='true' to="/" className="a">
                 <h1>
                     ThatsLifeStudio
                 </h1>

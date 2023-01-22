@@ -1,13 +1,16 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout';
+import { Landing } from '../components/LandingPage/Landing';
+import { WhyUs } from '../components/WhyUs/WhyUs';
+import { Slider } from '../components/Slider/Slider';
 
 export const Home = () => {
   return (
     <>
         <Layout>
-            <div>
-                HOLA MUNDO HOME
-            </div>
+            <Landing/>
+            <WhyUs/>
+            <Slider/>
         </Layout>
     </>
   );
