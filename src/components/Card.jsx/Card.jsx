@@ -2,27 +2,7 @@ import React from 'react';
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import styles from '../../styles/card.module.css';
 
-const prueba = {
-    id: 30,
-    title: "Oriental Fresh Shirt",
-    price: 189,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nemo, quos fugit, qui ad asperiores doloribus dicta laboriosam recusandae at consequuntur quo voluptatibus, exercitationem iste. Natus unde vitae perferendis mollitia.",
-    images: [
-    "https://api.lorem.space/image/shoes?w=640&h=480&r=1526",
-    "https://api.lorem.space/image/shoes?w=640&h=480&r=5630",
-    "https://api.lorem.space/image/shoes?w=640&h=480&r=5570"
-    ],
-    creationAt: "2023-01-23T06:26:35.000Z",
-    updatedAt: "2023-01-23T16:43:42.000Z",
-    category: {
-    id: 4,
-    name: "Shoes",
-    image: "https://api.lorem.space/image/shoes?w=640&h=480&r=5050",
-    creationAt: "2023-01-23T06:26:35.000Z",
-    updatedAt: "2023-01-23T06:26:35.000Z"
-    }
-    }
-  
+// "homepage": "https://nestordqa.github.io/Sigurgeir/",
 
 export const Card = ({id, title, price, description, images, category}) => {
   return (
