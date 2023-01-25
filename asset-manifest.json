@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Sigurgeir/static/css/main.ea769a78.css",
+    "main.js": "/Sigurgeir/static/js/main.3a7d436e.js",
+    "static/js/787.35a4bce2.chunk.js": "/Sigurgeir/static/js/787.35a4bce2.chunk.js",
+    "static/media/backgroundlanding.jpg": "/Sigurgeir/static/media/backgroundlanding.fcdf08c933788b9cb06d.jpg",
+    "static/media/smoke.png": "/Sigurgeir/static/media/smoke.becbc9f8ef8ce401ba8a.png",
+    "static/media/hoodieman.png": "/Sigurgeir/static/media/hoodieman.be1f2cf30904a66d4e88.png",
+    "index.html": "/Sigurgeir/index.html",
+    "main.ea769a78.css.map": "/Sigurgeir/static/css/main.ea769a78.css.map",
+    "main.3a7d436e.js.map": "/Sigurgeir/static/js/main.3a7d436e.js.map",
+    "787.35a4bce2.chunk.js.map": "/Sigurgeir/static/js/787.35a4bce2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea769a78.css",
+    "static/js/main.3a7d436e.js"
+  ]
+}
