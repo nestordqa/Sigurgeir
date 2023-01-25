@@ -27,11 +27,12 @@ const Navbar = () => {
   }
 
   return (
-    <header>
+    <header className="">
       <nav className={`nav`}>
         <div
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
+          key={activeIdx}
         >
           <div>
             <div>.</div>
@@ -67,14 +68,14 @@ const Navbar = () => {
           ))}
         </div>
         
-        <div className='logo'>
+        <div className='logo animated rubberBand'>
             <NavLink exact='true' to="/" className="a">
-                <h1>
+                <h1 className=''>
                     ThatsLifeStudio
                 </h1>
             </NavLink>
         </div>
-        <div className='options'>
+        <div className='options slide-fwd-center'>
             <div className='search'>
                 <HiOutlineSearch style={style}/>
             </div>
